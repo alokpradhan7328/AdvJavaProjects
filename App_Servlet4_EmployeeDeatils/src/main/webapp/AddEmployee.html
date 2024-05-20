@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="add" method="post">
+	        <table>
+	            <tr>
+	                <td>Employee Id:</td>
+	                <td><input type="text" name="id"></td>
+	            </tr>
+	            <tr>
+	                <td>Employee Name:</td>
+	                <td><input type="text" name="name"></td>
+	            </tr>
+	            <tr>
+	                <td>Designation:</td>
+	                <td>
+	                    <select name="desg">
+	                        <option value="SE" selected>SE</option>
+	                        <option value="TE">TE</option>
+	                        <option value="ME">ME</option>
+	                    </select>
+	                </td>
+	            </tr>
+	            <tr>
+	                <td>Basic Salary:</td>
+	                <td><input type="text" name="bsal"></td>
+	            </tr>
+	            <tr>
+	                <td>HRA:</td>
+	                <td>
+	                    <select name="hra">
+	                        <option value="0.93" selected>0.93%</option>
+	                        <option value="0.91">0.91%</option>
+	                    </select>
+	                </td>
+	            </tr>
+	            <tr>
+	                <td>DA:</td>
+	                <td>
+	                    <select name="da">
+	                        <option value="0.63" selected>0.63%</option>
+	                        <option value="0.61">0.61%</option>
+	                    </select>
+	                </td>
+	            </tr>
+	            <tr>
+	                <td>
+	                    <input type="submit" value="AddEmployee">
+	                </td>
+	            </tr>
+	        </table>
+	    </form>
+</body>
+</html>
